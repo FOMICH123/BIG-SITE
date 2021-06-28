@@ -1,0 +1,81 @@
+.about {
+  margin: auto;
+  margin-top: 30px;
+  width: 70%;
+  background-color: white;
+  margin-bottom: 50px;
+}
+.about p {
+  font-size: 17px;
+  border-left: 2px solid #212121;
+  padding-left: 15px;
+}
+.contactOut {
+  background-color: #e9e9e9;
+  padding-bottom: 50px;
+}
+.container {
+  overflow: hidden;
+}
+.contactIn {
+  float: left;
+  padding: 25px 20px;
+  width: 50%;
+  background-color: white;
+}
+.contactIn p {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+.contactIn p:first-child {
+  font-size: 20px;
+}
+.contactIn a {
+  display: inline-block;
+  padding: 25px 20px;
+}
+.contactIn a img {
+  width: 35px;
+}
+.team .container h2 {
+  text-align: center;
+  padding: 15px;
+}
+.team {
+  overflow: hidden;
+}
+.person > img {
+  object-fit: cover;
+  width: 125px;
+  height: 125px;
+  border-radius: 125px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.person p img {
+  width: 20px;
+}
+.person h5 {
+  font-size: 18px;
+}
+.person p {
+  vertical-align: top;
+  /* display: inline-block; */
+}
+.person p img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.person {
+  /* padding: 20px 30px; */
+  /* background-color: aqua; */
+  width: calc(100% / 3);
+  float: left;
+  margin-bottom: 50px;
+}
+.personRight {
+  margin-left: 10px;
+  display: inline-block;
+  /* background-color: blue; */
+  vertical-align: middle;
+}

@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.leftColumn {
+  padding-right: 15px;
+  width: 50%;
+  float: left;
+  /* background-color: aqua; */
+}
+.rightColumn {
+  padding-left: 15px;
+  width: 50%;
+  float: right;
+  /* background-color: aquamarine; */
+}
+.comment {
+  box-shadow: 0 0 10px #21212188;
+  float: none;
+  margin: 30px 0;
+  width: 100%;
+}
+.sectionTitle {
+  margin: 25px 0 25px 0;
+}
