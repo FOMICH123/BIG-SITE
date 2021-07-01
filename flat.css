@@ -95,3 +95,21 @@ iframe {
   width: calc(60% - 10px);
   float: right;
 }
+@media (max-width: 600px) {
+  .gallery {
+    float: none;
+    width: 100%;
+  }
+  .priceName {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+  iframe {
+    width: 100%;
+    height: 500px !important;
+  }
+  main {
+    padding-bottom: 0;
+  }
+}

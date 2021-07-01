@@ -22,3 +22,11 @@
 .sectionTitle {
   margin: 25px 0 25px 0;
 }
+@media (max-width: 600px) {
+  .leftColumn,
+  .rightColumn {
+    float: none;
+    width: 100%;
+    padding: 0 15px;
+  }
+}

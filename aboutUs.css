@@ -79,3 +79,18 @@
   /* background-color: blue; */
   vertical-align: middle;
 }
+@media (max-width: 600px) {
+  .contactIn {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+  .person {
+    width: 100%;
+    text-align: center;
+  }
+  .personRight {
+    text-align: left;
+  }
+}
